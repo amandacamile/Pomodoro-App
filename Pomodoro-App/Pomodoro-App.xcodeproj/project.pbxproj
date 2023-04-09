@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6B107BD929E0AEB800D176F6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B107BD829E0AEB800D176F6 /* HomeViewController.swift */; };
+		6B949C7029E22CD900A76015 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B949C6F29E22CD900A76015 /* Header.swift */; };
 		6BD9D93629DD08B3005DFC72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD9D93529DD08B3005DFC72 /* AppDelegate.swift */; };
 		6BD9D93829DD08B3005DFC72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD9D93729DD08B3005DFC72 /* SceneDelegate.swift */; };
 		6BD9D93A29DD08B3005DFC72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD9D93929DD08B3005DFC72 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		6B107BD829E0AEB800D176F6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6B949C6F29E22CD900A76015 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		6BD9D93229DD08B3005DFC72 /* Pomodoro-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pomodoro-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD9D93529DD08B3005DFC72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BD9D93729DD08B3005DFC72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				6BD9D94A29DD0F5D005DFC72 /* Home.swift */,
+				6B949C6F29E22CD900A76015 /* Header.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				6BD9D93A29DD08B3005DFC72 /* ViewController.swift in Sources */,
 				6BD9D93629DD08B3005DFC72 /* AppDelegate.swift in Sources */,
 				6BD9D94B29DD0F5D005DFC72 /* Home.swift in Sources */,
+				6B949C7029E22CD900A76015 /* Header.swift in Sources */,
 				6BD9D93829DD08B3005DFC72 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

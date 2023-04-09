@@ -12,9 +12,13 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let Home = Home(frame: view.frame)
+        let home = Home(frame: view.frame)
+        let header = Header(frame: view.frame)
         
-        view.insertSubview(Home, at: 0)
+        view.insertSubview(header, at: 1)
+        view.insertSubview(home, at: 0)
+        
     }
+
 
 }
