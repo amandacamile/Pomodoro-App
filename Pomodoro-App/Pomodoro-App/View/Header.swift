@@ -13,16 +13,15 @@ class Header: UIView {
        let label = UILabel()
         label.text = "POMODORO"
         label.font = UIFont.systemFont(ofSize: 25, weight: .bold)
-        label.textColor = UIColor(red: 0xFE/255, green: 0x07/255, blue: 0xFE/255, alpha: 1)
+        label.textColor = .colorDefault
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
     
     let buttonReset: UIButton = {
-        let defaultColor = UIColor(red: 0xFE/255, green: 0x07/255, blue: 0xFE/255, alpha: 1)
        let button = UIButton()
-        button.setImage(UIImage(named: "reload_icon")?.withTintColor(defaultColor), for: .normal)
+        button.setImage(UIImage(named: "reload_icon")?.withTintColor(.colorDefault), for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.addTarget(self, action: #selector(resetButtonTapped), for: .touchUpInside)
         return button
